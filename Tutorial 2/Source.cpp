@@ -7,7 +7,7 @@
 using namespace std;
 
 int main() {
-	const double Pi = 3.14;
+	const double Pi = 3.14; 
 
 	//Part one variables
 	double circleRadius; // for user input
@@ -40,19 +40,9 @@ int main() {
 
 	//Assignment part 3
 	cout << "This program will calculate the tension in a cord where mass 1 = " << m1 << " and mass 2 = " << m2 << endl;
-	tension = ((2 * (m1 + m2)) / (m1 + m2))*gravity;
+	tension = ((2 * (m1*m2))*gravity / (m1 + m2)); 
 	cout << "The tension in the cord is " << tension << endl;
-
-
-
-
-
-
 	
-
-
-
-
 	system("pause");
 	return 0;
 }
