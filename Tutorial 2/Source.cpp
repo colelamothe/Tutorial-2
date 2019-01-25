@@ -12,10 +12,12 @@ int main() {
 	//Part one variables
 	double circleRadius; // for user input
 	double area; // for fanal output
+
 	//Part two variables
 	double sphereRadius; // for user input
 	double volume; // for final output
-	double fraction = 1.3333333333333; //Approximate value for 4/3
+	double fraction = 4.0/3.0; //Approximate value for 4/3
+
 	//Part three variables
 	int m1 = 100; //mass 1 in kg
 	int m2 = 50; //mass 2 in kg
